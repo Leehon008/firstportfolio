@@ -1,0 +1,31 @@
+ <section id="hero" class="hero section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row align-items-center content">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <h2>{{title}}</h2>
+          <p class="lead">{{description}} </p>
+          <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+            <app-link-button />
+          </div>
+          <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+           @for(item of statItems; track $index){
+            <div class="stat-item">
+              <span class="stat-number">{{item.years}}</span>
+              <span class="stat-label">{{item.title}}</span>
+            </div> 
+           } 
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-image">
+            <div class="shape-1"></div>
+            <img src={{profileImage}} alt="Portfolio Hero Image" class="img-fluid"
+              data-aos="zoom-out" width="300" height="300">
+            <div class="shape-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
