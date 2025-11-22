@@ -1,0 +1,24 @@
+<section id="skills" class="skills section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 skills-animation">
+            @for (item of skills; track $index) {
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-box">
+                    <h3>{{item.title}}</h3>
+                    <p>{{item.description}}</p>
+                    <span class="text-end d-block">{{item.percent}}</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow={{item.barLevel}} aria-valuemin="50"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            } 
+
+        </div>
+    </div>
+
+</section>

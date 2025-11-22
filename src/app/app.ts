@@ -5,15 +5,16 @@ import { Header } from './custom_components/header/header';
 import { About } from './custom_components/about/about';
 import { Hero } from './custom_components/hero/hero';
 import { LinkButton } from './custom_components/link-button/link-button';
+import { Skills } from "./custom_components/skills/skills";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, 
-    Footer, 
+  imports: [RouterOutlet,
+    Footer,
     Header,
-    About, 
-    Hero,
-    // LinkButton,
+    About,
+    Hero, 
+    Skills,
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
