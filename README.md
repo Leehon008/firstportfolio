@@ -1,5 +1,19 @@
 # Firstportfolio
+## Branch Structure
+- main : frontend code
+- backendCode: houses Springboot backend code
 
+
+
+***********************************************
+
+***********************************************
+
+
+
+
+
+# Overview 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
 ## Development server
