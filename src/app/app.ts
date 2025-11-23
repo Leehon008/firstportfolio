@@ -7,10 +7,12 @@ import { Hero } from './custom_components/hero/hero';
 import { Skills } from "./custom_components/skills/skills";
 import { Resume } from "./custom_components/resume/resume";
 import { Projects } from './custom_components/projects/projects';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,
+    CommonModule,
     Footer,
     Header,
     About,
