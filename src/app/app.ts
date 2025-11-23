@@ -6,6 +6,7 @@ import { About } from './custom_components/about/about';
 import { Hero } from './custom_components/hero/hero';
 import { LinkButton } from './custom_components/link-button/link-button';
 import { Skills } from "./custom_components/skills/skills";
+import { Resume } from "./custom_components/resume/resume";
 
 @Component({
   selector: 'app-root',
@@ -13,8 +14,9 @@ import { Skills } from "./custom_components/skills/skills";
     Footer,
     Header,
     About,
-    Hero, 
-    Skills,
+    Hero,
+    Skills, 
+    Resume
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
