@@ -1,4 +1,4 @@
-package com.lee.firstspring;
+package com.lee.firstspring.controller;
 
 import org.springframework.web.bind.annotation.*;
 
