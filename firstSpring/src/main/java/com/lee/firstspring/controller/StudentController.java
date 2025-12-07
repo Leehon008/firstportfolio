@@ -9,7 +9,7 @@ import java.util.List;
 public class StudentController {
     @GetMapping("/")
     public List<String> getStudents() {
-        return List.of("Student1", "Student2", "Student3");
+        return List.of("Student1", "Student2", "Student 123313");
     }
 
     @GetMapping("/{id}")
